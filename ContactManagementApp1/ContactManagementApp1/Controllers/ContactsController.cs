@@ -66,7 +66,7 @@ namespace ContactManagementApp1.Controllers
             System.IO.File.WriteAllText(@"Contacts.json",newJson);
             return contact1;
         }
-
+     // this is empty line
     }
 
 }

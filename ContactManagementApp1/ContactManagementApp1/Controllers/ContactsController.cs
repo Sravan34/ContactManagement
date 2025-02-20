@@ -46,6 +46,7 @@ namespace ContactManagementApp1.Controllers
             }
             return contact;
         }
+        //this is to test code
         [HttpPost("saveContact")]
         public Contacts saveContact(Contacts contact)
         {
